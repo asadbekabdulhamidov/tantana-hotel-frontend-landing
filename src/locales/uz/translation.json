@@ -1,0 +1,607 @@
+{
+  "meta": {
+    "home": {
+      "title": "Tantana Hotel — Farg'onadagi mehmonxona",
+      "description": "Farg'onadagi Tantana Hotel: shinam xonalar, shved stoli nonushtali restoran, konferensiya zali va o'zbekona mehmondo'stlik. Xonalarni ko'ring va bron so'rovini yuboring."
+    },
+    "rooms": {
+      "title": "Xonalar va lyukslar",
+      "description": "Farg'onadagi Tantana Hotel xonalarini solishtiring: sig'imi, karavot turi, maydoni va qulayliklari. Mehmonlar soni, toifa, narx va qulayliklar bo'yicha saralang."
+    },
+    "room": {
+      "title": "{{name}} — xonalar",
+      "description": "Tantana Hotel, Farg'ona — {{name}}. {{short}}"
+    },
+    "experiences": {
+      "title": "Mehmonxona xizmatlari va qulayliklari",
+      "description": "Farg'onadagi Tantana Hotel'da restoran, shved stoli nonushtasi, konferensiya va banket zali, kecha-kunduz ishlaydigan qabulxona va bepul avtoturargoh."
+    },
+    "about": {
+      "title": "Mehmonxona haqida",
+      "description": "Tantana Hotel — Farg'ona shahri, Al-Farg'oniy ko'chasidagi 64 xonali mehmonxona: restoran, konferensiya zali va kecha-kunduz ishlaydigan qabulxona."
+    },
+    "discover": {
+      "title": "Farg'onani kashf eting",
+      "description": "Farg'ona vodiysi bo'ylab sayohat g'oyalari: Marg'ilon ipagi, Rishton kulolchiligi, Qo'qon saroyi, bozorlar va tog'lar."
+    },
+    "contact": {
+      "title": "Aloqa va manzil",
+      "description": "Tantana Hotel: Farg'ona, Al-Farg'oniy ko'chasi, 122A. Yo'nalishni ko'ring va bizga xabar yozing."
+    },
+    "booking": {
+      "title": "Xona band qilish",
+      "description": "Sanalarni va xonani tanlang hamda Farg'onadagi Tantana Hotel'ga bron so'rovini yuboring."
+    },
+    "confirmation": {
+      "title": "Bron so'rovi qabul qilindi",
+      "description": "Tantana Hotel'dagi bron so'rovingiz bo'yicha ma'lumot."
+    },
+    "notFound": {
+      "title": "Sahifa topilmadi",
+      "description": "Siz qidirayotgan sahifa mavjud emas."
+    }
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "rooms": "Xonalar",
+    "experiences": "Xizmatlar",
+    "discover": "Farg'ona",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa",
+    "book": "Band qilish",
+    "menu": "Menyu",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish",
+    "mainNav": "Asosiy navigatsiya",
+    "skipToContent": "Asosiy mazmunga o'tish",
+    "language": "Til: {{lang}}. Tilni o'zgartirish",
+    "phoneLabel": "Mehmonxonaga qo'ng'iroq qilish: {{phone}}",
+    "logoLabel": "Tantana Hotel — bosh sahifa"
+  },
+  "hero": {
+    "eyebrow": "Farg'ona · O'zbekiston",
+    "title": "Farg'ona go'zalligini kashf eting.",
+    "subtitle": "Yuksak qulaylik va o'zbekona mehmondo'stlik iliqligini his qiling.",
+    "ctaPrimary": "Xona band qilish",
+    "ctaSecondary": "Xonalarni ko'rish",
+    "scroll": "Pastga",
+    "slidesLabel": "Mehmonxona suratlari",
+    "goToSlide": "{{total}} ta suratdan {{current}}-sini ko'rsatish: {{name}}",
+    "pause": "Slayd-shouni to'xtatish",
+    "play": "Slayd-shouni davom ettirish"
+  },
+  "search": {
+    "title": "Xona qidirish",
+    "checkIn": "Kelish",
+    "checkOut": "Ketish",
+    "guests": "Mehmonlar",
+    "guestCount_one": "{{count}} mehmon",
+    "guestCount_other": "{{count}} mehmon",
+    "nights_one": "{{count}} kecha",
+    "nights_other": "{{count}} kecha",
+    "addDate": "Sanani tanlang",
+    "decrease": "Mehmonlar sonini kamaytirish",
+    "increase": "Mehmonlar sonini ko'paytirish",
+    "submit": "Xona topish",
+    "demoNote": "Onlayn bron sinov rejimida ishlaydi — bo'sh xonalarni mehmonxona o'zi tasdiqlaydi.",
+    "errors": {
+      "checkInRequired": "Kelish sanasini tanlang",
+      "checkOutRequired": "Ketish sanasini tanlang",
+      "checkInPast": "Kelish sanasi o'tib ketgan kun bo'lishi mumkin emas",
+      "checkOutAfter": "Ketish sanasi kelish sanasidan keyin bo'lishi kerak",
+      "maxStay": "30 kechadan uzoq qolish uchun biz bilan bog'laning"
+    }
+  },
+  "home": {
+    "styles": {
+      "title": "Har qanday safar uchun mos dam olish",
+      "subtitle": "Oila bilan, ikki kishi yoki ish safari — o'zingizga mos xona va maskanni tanlang.",
+      "items": {
+        "couples": {
+          "title": "Ikki kishi uchun",
+          "text": "Juftliklar uchun ikki kishilik va deluks xonalar.",
+          "alt": "Iliq yoritilgan ikki kishilik xona"
+        },
+        "twin": {
+          "title": "Do'stlar va hamkasblar",
+          "text": "Ikkita alohida karavotli xonalar.",
+          "alt": "Ikkita bir kishilik karavotli xona"
+        },
+        "family": {
+          "title": "Oilaviy safar",
+          "text": "Uch kishiga mo'ljallangan xonalar.",
+          "alt": "Ikki kishilik va bir kishilik karavotli uch o'rinli xona"
+        },
+        "business": {
+          "title": "Ish safari va tadbirlar",
+          "text": "Konferensiya va banket zali.",
+          "alt": "Uzun stolli konferensiya zali"
+        }
+      }
+    },
+    "featured": {
+      "title": "Sizga yoqadigan xonalar",
+      "subtitle": "Farg'ona vodiysining qoq markazida to'laqonli hordiq uchun osoyishta va shinam xonalar.",
+      "viewAll": "Barcha xonalar"
+    },
+    "why": {
+      "eyebrow": "Nega Tantana",
+      "title": "Mehmonlar nega Tantana Hotel'ni tanlaydi",
+      "items": {
+        "location": {
+          "title": "Farg'ona markazida",
+          "text": "Al-Farg'oniy ko'chasida — vodiy bo'ylab sayohat uchun qulay manzil."
+        },
+        "rooms": {
+          "title": "64 ta xona",
+          "text": "Konditsioner va bepul Wi-Fi bilan ikki kishilik, twin va uch o'rinli xonalar."
+        },
+        "breakfast": {
+          "title": "Shved stoli nonushtasi",
+          "text": "Kunni mehmonxona restoranida boshlang."
+        },
+        "reception": {
+          "title": "Kecha-kunduz ishlaydigan qabulxona",
+          "text": "Istalgan vaqtda yordam, yuk saqlash va tezkor joylashish."
+        }
+      }
+    },
+    "experiences": {
+      "eyebrow": "Xizmatlar",
+      "title": "Shunchaki tunash joyi emas",
+      "subtitle": "Nonushtadan ish uchrashuvlarigacha — barchasi bir joyda."
+    },
+    "discover": {
+      "eyebrow": "Farg'onani kashf eting",
+      "title": "Ipak, kulolchilik va bog'lar vodiysi",
+      "subtitle": "Farg'ona — Marg'ilon, Rishton va Qo'qonga sayohat uchun eng qulay boshlang'ich nuqta.",
+      "cta": "Vodiy bilan tanishing"
+    },
+    "cta": {
+      "title": "Farg'onadagi sayohatingiz shu yerdan boshlanadi",
+      "subtitle": "Sanalarni tanlang va so'rov yuboring — mehmonxona xodimlari tasdiqlash uchun siz bilan bog'lanadi.",
+      "button": "Sanalarni tanlash"
+    }
+  },
+  "rooms": {
+    "eyebrow": "Joylashuv",
+    "title": "Xonalar va lyukslar",
+    "subtitle": "Har bir xona hordiq uchun yaratilgan: sokin, shinam va puxta jihozlangan.",
+    "placeholderNotice": "Xona toifalari, maydoni, narxlari va suratlari mehmonxona yakuniy ma'lumot bergunga qadar namunaviy. Ko'rsatilgan narxlar oferta emas.",
+    "searchSummary": "{{from}} — {{to}} · {{nights}} · {{guests}}",
+    "filters": {
+      "title": "Saralash",
+      "open": "Saralash",
+      "close": "Saralashni yopish",
+      "guests": "Mehmonlar",
+      "any": "Farqi yo'q",
+      "type": "Xona toifasi",
+      "types": {
+        "standard": "Standart",
+        "deluxe": "Deluks",
+        "twin": "Twin",
+        "triple": "Uch o'rinli"
+      },
+      "price": "Bir kecha narxi",
+      "priceAny": "Istalgan narx",
+      "priceUpTo": "{{value}} gacha",
+      "amenities": "Qulayliklar",
+      "reset": "Tozalash",
+      "results_one": "{{count}} ta xona topildi",
+      "results_other": "{{count}} ta xona topildi",
+      "show_one": "{{count}} ta xonani ko'rsatish",
+      "show_other": "{{count}} ta xonani ko'rsatish"
+    },
+    "empty": {
+      "title": "Tanlangan shartlarga mos xona yo'q",
+      "text": "Saralash shartlaridan birini olib tashlang yoki mehmonlar sonini kamaytiring.",
+      "reset": "Saralashni tozalash"
+    },
+    "card": {
+      "guests_one": "{{count}} mehmongacha",
+      "guests_other": "{{count}} mehmongacha",
+      "size": "{{value}} m²",
+      "perNight": "/ kecha",
+      "sample": "Namunaviy narx — aniqlashtiriladi",
+      "details": "Batafsil",
+      "book": "Shu xonani band qilish"
+    },
+    "beds": {
+      "double": "Ikki kishilik karavot",
+      "twin": "Ikkita bir kishilik karavot",
+      "doublePlusSingle": "Ikki kishilik + bir kishilik karavot"
+    },
+    "amenities": {
+      "wifi": "Bepul Wi-Fi",
+      "ac": "Konditsioner",
+      "heating": "Isitish",
+      "tv": "Yassi ekranli televizor",
+      "desk": "Yozuv stoli",
+      "wardrobe": "Kiyim javoni",
+      "hairdryer": "Fen",
+      "toiletries": "Gigiyena vositalari",
+      "roomService": "Xonaga ovqat yetkazish",
+      "nonSmoking": "Chekilmaydigan xona"
+    },
+    "items": {
+      "standard-double": {
+        "name": "Standart ikki kishilik xona",
+        "short": "Ikki kishilik karavot, yozuv stoli va televizorli yorug' xona.",
+        "description": "Standart ikki kishilik xona — qulay karavot, ish stoli, kiyim javoni va dushli shaxsiy hammomga ega osoyishta va yorug' xona. Maydoni va narxi mehmonxona tomonidan aniqlashtiriladi.",
+        "alt": "Jigarrang yopinchiqli va stolli standart ikki kishilik xona"
+      },
+      "deluxe-double": {
+        "name": "Deluks ikki kishilik xona",
+        "short": "Yumshoq devor chiroqlari, ikki kishilik karavot va xonaga ovqat yetkazish.",
+        "description": "Deluks xonada iliq devor chiroqlari, ikki kishilik karavot va dam olish burchagi bor; xonaga ovqat yetkazib berish mumkin. Maydoni va narxi mehmonxona tomonidan aniqlashtiriladi.",
+        "alt": "Iliq devor chiroqlari yoritgan deluks xona"
+      },
+      "budget-twin": {
+        "name": "Ekonom twin xona",
+        "short": "Do'stlar yoki hamkasblar uchun ikkita alohida karavot.",
+        "description": "Ekonom twin xonada ikkita bir kishilik karavot, yassi ekranli televizor, kiyim javoni va shaxsiy hammom bor — do'stlar yoki hamkasblar uchun amaliy tanlov. Maydoni va narxi mehmonxona tomonidan aniqlashtiriladi.",
+        "alt": "Ikkita karavot va televizorli twin xona"
+      },
+      "triple": {
+        "name": "Uch o'rinli xona",
+        "short": "Ikki kishilik va bir kishilik karavot — uch kishi uchun.",
+        "description": "Uch o'rinli xonada ikki kishilik va bir kishilik karavot bor — kichik oila yoki uch sayohatchi birga qulay joylashadi. Maydoni va narxi mehmonxona tomonidan aniqlashtiriladi.",
+        "alt": "Ikki kishilik va bir kishilik karavotli uch o'rinli xona"
+      }
+    }
+  },
+  "room": {
+    "overview": "Xona haqida",
+    "details": "Xona ko'rsatkichlari",
+    "amenities": "Xonadagi qulayliklar",
+    "facts": {
+      "capacity": "Mehmonlar",
+      "bed": "Karavot",
+      "size": "Maydoni",
+      "times": "Kelish / ketish"
+    },
+    "bookTitle": "Shu xonani band qilish",
+    "bookSubtitle": "Sanalarni tanlang",
+    "skipDates": "Sanalarsiz davom etish",
+    "related": "Sizga yoqishi mumkin",
+    "notFound": "Bu xona topilmadi. Ehtimol, uning nomi o'zgargan yoki o'chirilgan.",
+    "gallery": {
+      "label": "Xona suratlari galereyasi",
+      "openImage": "{{total}} ta suratdan {{current}}-ni ochish",
+      "viewAll_one": "{{count}} ta suratni ko'rish",
+      "viewAll_other": "Barcha {{count}} ta suratni ko'rish",
+      "counter": "{{current}} / {{total}}",
+      "prev": "Oldingi surat",
+      "next": "Keyingi surat",
+      "close": "Galereyani yopish"
+    }
+  },
+  "experiences": {
+    "eyebrow": "Mehmonxona xizmatlari",
+    "title": "Qulaylik, dasturxon va uchrashuvlar uchun joy",
+    "subtitle": "Restoran, konferensiya zali va kecha-kunduz ishlaydigan qabulxona.",
+    "sourceNote": "Xizmatlar ro'yxati onlayn bron platformalaridagi ma'lumotlar asosida tuzilgan va mehmonxona tasdig'ini kutmoqda. Mavsumiy xizmatlar o'zgarishi mumkin.",
+    "toConfirm": "Mehmonxona tomonidan tasdiqlanadi",
+    "jumpTo": "Xizmatga o'tish",
+    "items": {
+      "restaurant": {
+        "tag": "Restoran",
+        "title": "Restoran",
+        "short": "Yumshoq o'rindiqli keng restoran zali.",
+        "text": "Mehmonxona restorani tushlik, kechki ovqat yoki do'stlar bilan uchrashuv uchun shinam maskan. Taom va ichimliklarni xonaga ham buyurtma qilish mumkin.",
+        "points": [
+          "Mehmonxona restorani",
+          "Xonaga taom va ichimlik yetkazish"
+        ]
+      },
+      "breakfast": {
+        "tag": "Nonushta",
+        "title": "Shved stoli nonushtasi",
+        "short": "Har kuni ertalab shved stoli nonushtasi.",
+        "text": "Farg'ona va vodiy bo'ylab sayrga chiqishdan oldin kuningizni shved stoli nonushtasi bilan boshlang.",
+        "points": [
+          "Shved stoli uslubidagi nonushta",
+          "Mehmonxona restoranida"
+        ]
+      },
+      "events": {
+        "tag": "Tadbirlar",
+        "title": "Konferensiya va banket zali",
+        "short": "Proyektor ekranli majlislar xonasi va banket zali.",
+        "text": "Ish uchrashuvlari, taqdimotlar va tantanalarni mehmonxonada o'tkazing. Konferensiya va banket zali qo'shimcha to'lov evaziga beriladi.",
+        "points": [
+          "Proyektor ekranli konferensiya zali",
+          "Banket zali",
+          "Alohida to'lanadi"
+        ]
+      },
+      "reception": {
+        "tag": "Xizmat",
+        "title": "Kecha-kunduz ishlaydigan qabulxona",
+        "short": "Istalgan vaqtda yordam, tezkor joylashish va chiqish.",
+        "text": "Qabulxona xodimlari kecha-kunduz joylashish, yuklar va tashrifingiz bo'yicha har qanday savolda yordam beradi.",
+        "points": [
+          "Qabulxona 24/7",
+          "Tezkor joylashish va chiqish",
+          "Yuk saqlash xonasi"
+        ]
+      },
+      "parking": {
+        "tag": "Avtoturargoh",
+        "title": "Avtoturargoh",
+        "short": "Mehmonxona oldidagi avtoturargoh.",
+        "text": "Mashinada kelyapsizmi? Mehmonxona binosining oldida avtoturargoh bor.",
+        "points": [
+          "Hududdagi avtoturargoh",
+          "Bino tashqarisida videokuzatuv"
+        ]
+      },
+      "services": {
+        "tag": "Qulayliklar",
+        "title": "Kundalik xizmatlar",
+        "short": "Lift, har kungi tozalash, kir yuvish va dazmollash.",
+        "text": "Tashrifni qulay qiladigan mayda narsalar: har bir qavatga lift, har kungi tozalash, kir yuvish va dazmollash xizmatlari.",
+        "points": [
+          "Lift",
+          "Har kungi tozalash",
+          "Kir yuvish va dazmollash (pullik)",
+          "Butun hududda chekish taqiqlangan"
+        ]
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Mehmonxona haqida",
+    "title": "Farg'onadagi Tantana Hotel",
+    "subtitle": "Qulaylik, osoyishtalik va samimiy mehmondo'stlikni qadrlaydigan sayohatchilar uchun Farg'ona markazidagi zamonaviy mehmonxona.",
+    "facts": {
+      "rooms": "Xonalar",
+      "checkIn": "Joylashish",
+      "checkOut": "Chiqish",
+      "reception": "Qabulxona"
+    },
+    "story": {
+      "eyebrow": "Bizning mehmonxona",
+      "title": "O'zbekona mehmondo'stlik — o'zingizga qulay maromda",
+      "paragraphs": [
+        "Tantana Hotel mehmonlarni Farg'ona shahri, Al-Farg'oniy ko'chasida kutib oladi. Farg'ona — ipak ustaxonalari, kulolchilik ustalari va yashil bog'lari bilan mashhur vodiyning darvozasi.",
+        "Ish safari, oilaviy tantana yoki vodiy bo'ylab sayohat — mehmonxona restorani, konferensiya zali va kecha-kunduz ishlaydigan qabulxonasi bilan siz uchun osoyishta maskan bo'ladi."
+      ]
+    },
+    "missingNote": "Mehmonxona tarixi, jamoasi va rasmiy suratlari mehmonxona taqdim etganidan so'ng qo'shiladi."
+  },
+  "discover": {
+    "eyebrow": "Farg'ona vodiysi",
+    "title": "Farg'onani kashf eting",
+    "subtitle": "Ipak ustaxonalari, kulolchilik an'analari, tarixiy saroylar va tog' havosi — vodiy qiziquvchan sayohatchini quruq qaytarmaydi.",
+    "note": "Suratlar namunaviy. Masofa, ish vaqti va yo'l davomiyligi bu yerda ko'rsatilmagan — ularni safardan oldin yoki qabulxona xodimlaridan aniqlashtiring.",
+    "openMap": "Google Xaritada ochish",
+    "items": {
+      "margilan": {
+        "name": "Marg'ilon va «Yodgorlik» ipak fabrikasi",
+        "place": "Marg'ilon",
+        "text": "Marg'ilon ipagi bilan mashhur. «Yodgorlik» fabrikasida an'anaviy atlas va adras matolari qo'lda qanday to'qilishini ko'rishingiz mumkin.",
+        "alt": "Rang-barang ipak iplari va matolar"
+      },
+      "rishtan": {
+        "name": "Rishton kulolchiligi",
+        "place": "Rishton",
+        "text": "Rishton asrlar davomida to'q ko'k va feruza sirlari bilan mashhur kulolchilik markazi bo'lib kelgan. Usta ustaxonasiga kirib, hunarni yaqindan ko'ring.",
+        "alt": "Qo'lda bezatilgan ko'k sopol likopchalar"
+      },
+      "kokand": {
+        "name": "Xudoyorxon saroyi",
+        "place": "Qo'qon",
+        "text": "Qo'qon xonligining so'nggi hukmdoriga tegishli XIX asr saroyi — boy bezakli peshtoqlar va hovlilar.",
+        "alt": "Bezakli koshinlar bilan tarixiy me'morchilik"
+      },
+      "ferganaPark": {
+        "name": "Al-Farg'oniy bog'i",
+        "place": "Farg'ona",
+        "text": "O'rta asr astronomi Ahmad al-Farg'oniy nomi bilan atalgan shahardagi katta yashil bog' — kechki sayr uchun yoqimli maskan.",
+        "alt": "Baland daraxtli yashil bog'"
+      },
+      "kumtepa": {
+        "name": "Qumtepa bozori",
+        "place": "Marg'ilon",
+        "text": "Matolar, mahalliy mahsulotlar va vodiyning kundalik hayoti bilan tanishish mumkin bo'lgan an'anaviy bozor.",
+        "alt": "Gavjum an'anaviy bozor"
+      },
+      "museum": {
+        "name": "Farg'ona viloyat o'lkashunoslik muzeyi",
+        "place": "Farg'ona",
+        "text": "Muzey Farg'ona vodiysining tarixi, tabiati va madaniyati bilan tanishtiradi.",
+        "alt": "Eksponatlar qo'yilgan muzey zali"
+      },
+      "shohimardon": {
+        "name": "Shohimardon",
+        "place": "Farg'ona viloyati",
+        "text": "Toza havosi va Ko'kko'l ko'li bilan mashhur tog'li hudud. Safarni rejalashtirishdan oldin amaldagi kirish qoidalarini aniqlashtiring.",
+        "alt": "Ko'lli tog' manzarasi"
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Aloqa",
+    "title": "Yordam berishga doim tayyormiz",
+    "subtitle": "Xonalar, tadbirlar yoki Farg'onaga safar haqida savolingiz bormi? Mehmonxona bilan bog'laning.",
+    "address": "Manzil",
+    "addressValue": "O'zbekiston, Farg'ona, Al-Farg'oniy ko'chasi, 122A",
+    "phone": "Telefon",
+    "phoneMissing": "Telefon raqami aniqlashtirilmoqda",
+    "email": "Elektron pochta",
+    "hours": "Kelish / ketish",
+    "reception": "Qabulxona kecha-kunduz ishlaydi",
+    "mapTitle": "Tantana Hotel joylashuvi ko'rsatilgan xarita",
+    "form": {
+      "title": "Xabar yuborish",
+      "demo": "Sinov shakli: xabarlar hozircha hech qayerga yuborilmaydi. Shoshilinch savollar bo'yicha mehmonxonaga qo'ng'iroq qiling.",
+      "name": "Ismingiz",
+      "email": "Elektron pochta",
+      "message": "Xabar",
+      "submit": "Yuborish",
+      "sending": "Yuborilmoqda…",
+      "success": "Rahmat! Bu sinov rejimi, shuning uchun xabar yuborilmadi. Shakl ulangandan so'ng mehmonxona sizga elektron pochta orqali javob beradi.",
+      "errors": {
+        "messageRequired": "Xabar matnini yozing",
+        "messageShort": "Xabar juda qisqa — biroz batafsilroq yozing"
+      }
+    }
+  },
+  "booking": {
+    "eyebrow": "Band qilish",
+    "title": "Band qilish",
+    "headings": {
+      "dates": "Qachon kelasiz?",
+      "room": "Xonani tanlang",
+      "details": "Ma'lumotlaringiz",
+      "review": "So'rovni tekshiring"
+    },
+    "steps": {
+      "dates": "Sanalar va mehmonlar",
+      "room": "Xona",
+      "details": "Mehmon ma'lumotlari",
+      "review": "Tekshirish"
+    },
+    "stepsLabel": "Band qilish bosqichlari",
+    "stepOf": "{{total}} bosqichdan {{current}}-si",
+    "stepDone": "bajarildi",
+    "demoTitle": "Sinov rejimidagi bron",
+    "demoBanner": "Onlayn bron hali ulanmagan. Barcha bosqichlardan o'tishingiz mumkin, ammo xona band qilinmaydi va ma'lumotlar hech qayerga yuborilmaydi. Band qilish uchun mehmonxonaga to'g'ridan-to'g'ri murojaat qiling.",
+    "datesHint": "Joylashish 14:00 dan, chiqish 12:00 gacha.",
+    "selectRoom": "Xonani tanlang",
+    "select": "Tanlash",
+    "capacityHint_one": "{{count}} mehmon uchun mos xonalar ko'rsatilmoqda.",
+    "capacityHint_other": "{{count}} mehmon uchun mos xonalar ko'rsatilmoqda.",
+    "continue": "Davom etish",
+    "back": "Orqaga",
+    "change": "O'zgartirish",
+    "changeDates": "Sanalarni o'zgartirish",
+    "toReview": "So'rovni tekshirish",
+    "submit": "Bron so'rovini yuborish",
+    "submitting": "Yuborilmoqda…",
+    "summary": {
+      "title": "Sizning tashrifingiz",
+      "noRoom": "Xona hali tanlanmagan.",
+      "checkIn": "Kelish",
+      "checkOut": "Ketish",
+      "nights": "Davomiyligi",
+      "guests": "Mehmonlar",
+      "total": "Taxminiy summa",
+      "sampleTotal": "Namunaviy narxlar asosida hisoblangan. Yakuniy narxni mehmonxona tasdiqlaydi."
+    },
+    "guest": {
+      "title": "Mehmon haqida ma'lumot",
+      "subtitle": "So'rovingiz bo'yicha siz bilan shu ma'lumotlar orqali bog'lanamiz.",
+      "fullName": "Ism va familiya",
+      "phone": "Telefon raqami",
+      "email": "Elektron pochta",
+      "arrival": "Taxminiy kelish vaqti",
+      "arrivalHint": "Bu qabulxona xodimlariga kelishingizga tayyorlanishga yordam beradi.",
+      "requests": "Maxsus istaklar",
+      "requestsPlaceholder": "Masalan, bolalar karavoti, sokin xona yoki kech kelish",
+      "consent": "Mehmonxona ushbu so'rov bo'yicha men bilan telefon yoki elektron pochta orqali bog'lanishiga roziman."
+    },
+    "arrival": {
+      "unknown": "Hozircha bilmayman",
+      "10-12": "10:00 – 12:00",
+      "12-14": "12:00 – 14:00",
+      "14-16": "14:00 – 16:00",
+      "16-18": "16:00 – 18:00",
+      "18-20": "18:00 – 20:00",
+      "20-22": "20:00 – 22:00",
+      "22-24": "22:00 – 00:00",
+      "after24": "Yarim tundan keyin"
+    },
+    "review": {
+      "title": "Ma'lumotlarni tekshiring",
+      "subtitle": "Yuborishdan oldin hammasi to'g'ri ekaniga ishonch hosil qiling."
+    },
+    "errors": {
+      "nameRequired": "Ism va familiyangizni kiriting",
+      "nameShort": "Ism kamida 3 ta belgidan iborat bo'lishi kerak",
+      "nameLong": "Ism juda uzun",
+      "phoneRequired": "Telefon raqamingizni kiriting",
+      "phoneInvalid": "To'g'ri telefon raqamini kiriting, masalan +998 90 123 45 67",
+      "emailRequired": "Elektron pochta manzilingizni kiriting",
+      "emailInvalid": "To'g'ri elektron pochta manzilini kiriting",
+      "requestsLong": "Ko'pi bilan 500 ta belgi",
+      "consent": "Mehmonxona siz bilan bog'lanishiga rozilik bildiring",
+      "submitFailed": "Nimadir xato ketdi. Qaytadan urinib ko'ring."
+    }
+  },
+  "confirmation": {
+    "title": "So'rov qabul qilindi",
+    "text": "Rahmat, {{name}}. Quyida bron so'rovingiz bo'yicha qisqacha ma'lumot.",
+    "demoTitle": "Bu tasdiqlangan bron emas",
+    "demoText": "Onlayn bron sinov rejimida ishlaydi: so'rov mehmonxonaga yuborilmadi va xona band qilinmadi. Haqiqiy bron uchun mehmonxonaga murojaat qiling.",
+    "reference": "Sinov so'rovi raqami",
+    "nextTitle": "Keyingi qadamlar",
+    "nextSteps": [
+      "Onlayn bron ulangach, mehmonxona tanlagan sanalaringizda bo'sh xona bor-yo'qligini tekshiradi.",
+      "Xodimlar narx va bronni tasdiqlash uchun siz bilan telefon yoki elektron pochta orqali bog'lanadi.",
+      "Bron faqat mehmonxona tasdiqlaganidan keyin kuchga kiradi."
+    ],
+    "home": "Bosh sahifaga",
+    "emptyTitle": "So'rov topilmadi",
+    "emptyText": "Sana va xonani tanlash uchun yangi bron boshlang."
+  },
+  "notFound": {
+    "title": "Sahifa topilmadi",
+    "text": "Bunday sahifa mavjud emas yoki boshqa manzilga ko'chirilgan.",
+    "home": "Bosh sahifaga"
+  },
+  "footer": {
+    "tagline": "Farg'ona vodiysining qoq markazidagi mehmonxona — qulaylik, osoyishtalik va o'zbekona mehmondo'stlik iliqligi.",
+    "explore": "Bo'limlar",
+    "contact": "Aloqa",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "times": "Joylashish {{checkIn}} · Chiqish {{checkOut}}",
+    "placeholderNote": "Saytdagi narxlar, xona tavsiflari va suratlar mehmonxona tasdiqlagunga qadar namunaviy."
+  },
+  "common": {
+    "demo": "Namunaviy ma'lumot",
+    "sample": "Namuna",
+    "toBeConfirmed": "Aniqlashtirilmoqda",
+    "optional": "ixtiyoriy",
+    "learnMore": "Batafsil",
+    "previous": "Oldingi",
+    "next": "Keyingi",
+    "breadcrumbs": "Navigatsiya zanjiri",
+    "opensNewTab": "yangi oynada ochiladi",
+    "photoSoon": "Surat tez orada"
+  },
+  "images": {
+    "exterior": "Kechki chiroqlarda yoritilgan Tantana Hotel binosi",
+    "exteriorNight": "Tunda Tantana Hotel va o'tayotgan mashinalar chiroqlari izi",
+    "exteriorWide": "Bayroqlar va mashinalar bilan Tantana Hotel peshtoqi",
+    "exteriorStreet": "Kechqurun Tantana Hotel va uning oldidagi ko'cha",
+    "exteriorSunset": "Quyosh botayotgan paytda mehmonxona oldidagi ko'cha",
+    "lobby": "Divanlar va qabulxona peshtaxtasi bilan mehmonxona foyesi",
+    "reception": "Devorida soatlar osilgan qabulxona peshtaxtasi",
+    "corridor": "Mehmonxonaning yorug' yo'lagi",
+    "lift": "Mehmonxona yo'lagidagi lift va zinapoya",
+    "conference": "Uzun stol va proyektor ekrani bilan konferensiya zali",
+    "conference2": "Charm kreslolar qo'yilgan majlislar xonasi",
+    "cafe": "Stollar va shved stoli peshtaxtasi bilan mehmonxona kafesi",
+    "dining": "Stollar va yumshoq divanlar bilan restoran zali",
+    "roomDouble": "Jigarrang yopinchiqli, yumshoq yoritilgan ikki kishilik xona",
+    "roomDouble2": "Katta derazali va stolli ikki kishilik xona",
+    "roomDouble3": "Televizor va ish stoli bilan ikki kishilik xona",
+    "roomDeluxe": "Iliq devor chiroqlari yoritgan deluks xona",
+    "roomDeluxe2": "Devorga o'rnatilgan televizorli deluks xona",
+    "roomTwin": "Ikkita bir kishilik karavotli xona",
+    "roomTwin2": "Televizor va kiyim javonli twin xona",
+    "roomTriple": "Ikki kishilik va bir kishilik karavotli uch o'rinli xona",
+    "roomTriple2": "Televizor va gullar bilan uch o'rinli xona",
+    "bathroom": "Shisha dush kabinasi va rakovinali hammom",
+    "bathroom2": "Tropik dushli hammom",
+    "ferganaPark": "Baland daraxtli yashil bog'",
+    "museum": "Eksponatlar qo'yilgan muzey zali",
+    "margilan": "Rang-barang ipak iplari va matolar",
+    "bazaar": "Gavjum an'anaviy bozor",
+    "rishtan": "Qo'lda bezatilgan ko'k sopol likopchalar",
+    "kokand": "Bezakli koshinlar bilan tarixiy me'morchilik",
+    "mountains": "Ko'lli tog' manzarasi"
+  }
+}

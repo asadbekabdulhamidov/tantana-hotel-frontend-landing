@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- LCP: hero'ning birinchi surati -->
+    <link rel="preload" as="image" type="image/avif" imagesrcset="/images/hotel/exterior-480.avif 480w, /images/hotel/exterior-768.avif 768w, /images/hotel/exterior-1024.avif 1024w" imagesizes="100vw" fetchpriority="high" />
+    <title>Tantana Hotel — Farg'ona</title>
+    <meta name="description" content="Tantana Hotel — Farg'ona markazidagi mehmonxona. Shinam xonalar, restoran, konferensiya zali va o'zbekona mehmondo'stlik." />
+    <!-- Statik Hotel structured data: JS ishlamasa ham qidiruv tizimlari ko'radi.
+         Telefon/email mehmonxona tasdiqlagandan keyin qo'shilsin. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Hotel",
+        "name": "Tantana Hotel",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Al-Farg'oniy ko'chasi, 122A",
+          "addressLocality": "Farg'ona",
+          "postalCode": "150100",
+          "addressCountry": "UZ"
+        },
+        "numberOfRooms": 64
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <h1>Tantana Hotel — Farg'ona</h1>
+      <p>Al-Farg'oniy ko'chasi 122A, Farg'ona, O'zbekiston.</p>
+      <a href="/uz/">O'zbekcha</a> · <a href="/ru/">Русский</a> · <a href="/en/">English</a> · <a href="/tr/">Türkçe</a>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

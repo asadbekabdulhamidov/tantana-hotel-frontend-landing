@@ -1,0 +1,94 @@
+@import 'tailwindcss';
+
+/* ------------------------------------------------------------------
+   Design tokens — Staymint uslubidagi toza, yorug' palitra:
+   oq fon, och kulrang yuzalar, deyarli qora tugmalar, yumshoq ko'k urg'u.
+------------------------------------------------------------------- */
+@theme {
+  --font-sans: 'Manrope Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+
+  --color-ink: #111111;
+  --color-ink-soft: #2a2a2a;
+  --color-muted: #6b6b6b;
+  --color-subtle: #9a9a9a;
+  --color-line: #e8e8e6;
+  --color-surface: #f5f5f4;
+  --color-surface-2: #eeeeec;
+  --color-canvas: #ffffff;
+  --color-accent: #e9effc;
+  --color-accent-ink: #2b4c9b;
+  --color-danger: #b42318;
+  --color-success: #1f7a4d;
+
+  --radius-card: 1.25rem;
+  --radius-hero: 1.75rem;
+
+  --shadow-float: 0 12px 40px -12px rgb(17 17 17 / 0.18), 0 2px 6px -2px rgb(17 17 17 / 0.06);
+  --shadow-soft: 0 6px 24px -10px rgb(17 17 17 / 0.14);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+    font-feature-settings: 'ss01', 'cv11';
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply tracking-tight text-ink;
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: #111;
+    color: #fff;
+  }
+  :focus-visible {
+    outline: 2px solid #111;
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  /* Native date input: brauzer ikonkasi ustiga bosish butun maydonga tarqalsin */
+  input[type='date']::-webkit-calendar-picker-indicator {
+    opacity: 0.55;
+    cursor: pointer;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply text-[0.72rem] font-semibold uppercase tracking-[0.16em] text-muted;
+  }
+  .glass {
+    background: rgb(255 255 255 / 0.14);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    backdrop-filter: blur(14px) saturate(140%);
+  }
+  .glass-light {
+    background: rgb(255 255 255 / 0.78);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
+    backdrop-filter: blur(12px) saturate(150%);
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}

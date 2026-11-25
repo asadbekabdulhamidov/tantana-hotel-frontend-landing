@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /*/booking/confirmation
+
+Sitemap: https://YOUR-DOMAIN.uz/sitemap.xml

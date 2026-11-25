@@ -1,0 +1,607 @@
+{
+  "meta": {
+    "home": {
+      "title": "Tantana Hotel — Fergana, Özbekistan'da otel",
+      "description": "Fergana'daki Tantana Hotel: konforlu odalar, açık büfe kahvaltılı restoran, toplantı salonu ve sıcak Özbek misafirperverliği. Odaları inceleyin ve rezervasyon talebi gönderin."
+    },
+    "rooms": {
+      "title": "Odalar ve Süitler",
+      "description": "Fergana'daki Tantana Hotel odalarını karşılaştırın: kapasite, yatak tipi, oda büyüklüğü ve olanaklar. Misafir sayısı, oda tipi, fiyat ve olanaklara göre filtreleyin."
+    },
+    "room": {
+      "title": "{{name}} — Odalar",
+      "description": "Tantana Hotel, Fergana — {{name}}. {{short}}"
+    },
+    "experiences": {
+      "title": "Otel Deneyimleri ve Olanakları",
+      "description": "Fergana'daki Tantana Hotel'de restoran, açık büfe kahvaltı, toplantı ve ziyafet salonu, 24 saat açık resepsiyon ve ücretsiz otopark."
+    },
+    "about": {
+      "title": "Otel Hakkında",
+      "description": "Tantana Hotel, Fergana'da El-Fergani Caddesi üzerinde restoranı, toplantı salonu ve 24 saat açık resepsiyonu olan 64 odalı bir oteldir."
+    },
+    "discover": {
+      "title": "Fergana'yı Keşfedin",
+      "description": "Fergana Vadisi için gezi ilhamı: Margilan ipeği, Rişton seramikleri, Kokand sarayı, yerel pazarlar ve dağ manzaraları."
+    },
+    "contact": {
+      "title": "İletişim ve Konum",
+      "description": "Tantana Hotel: El-Fergani Caddesi 122A, Fergana. Yol tarifi alın ve bize mesaj gönderin."
+    },
+    "booking": {
+      "title": "Rezervasyon",
+      "description": "Tarihlerinizi ve odanızı seçin, Fergana'daki Tantana Hotel'e rezervasyon talebi gönderin."
+    },
+    "confirmation": {
+      "title": "Rezervasyon Talebi Alındı",
+      "description": "Tantana Hotel rezervasyon talebinizin özeti."
+    },
+    "notFound": {
+      "title": "Sayfa Bulunamadı",
+      "description": "Aradığınız sayfa mevcut değil."
+    }
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "rooms": "Odalar",
+    "experiences": "Deneyimler",
+    "discover": "Fergana",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "book": "Rezervasyon",
+    "menu": "Menü",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "mainNav": "Ana gezinme",
+    "skipToContent": "Ana içeriğe geç",
+    "language": "Dil: {{lang}}. Dili değiştir",
+    "phoneLabel": "Oteli arayın: {{phone}}",
+    "logoLabel": "Tantana Hotel — ana sayfa"
+  },
+  "hero": {
+    "eyebrow": "Fergana · Özbekistan",
+    "title": "Fergana'nın güzelliğini keşfedin.",
+    "subtitle": "Üstün konforu ve Özbek misafirperverliğinin sıcaklığını yaşayın.",
+    "ctaPrimary": "Rezervasyon yapın",
+    "ctaSecondary": "Odaları keşfedin",
+    "scroll": "Kaydır",
+    "slidesLabel": "Otel fotoğrafları",
+    "goToSlide": "{{total}} fotoğraftan {{current}}. fotoğrafı göster: {{name}}",
+    "pause": "Slayt gösterisini duraklat",
+    "play": "Slayt gösterisini başlat"
+  },
+  "search": {
+    "title": "Oda arayın",
+    "checkIn": "Giriş",
+    "checkOut": "Çıkış",
+    "guests": "Misafirler",
+    "guestCount_one": "{{count}} misafir",
+    "guestCount_other": "{{count}} misafir",
+    "nights_one": "{{count}} gece",
+    "nights_other": "{{count}} gece",
+    "addDate": "Tarih seçin",
+    "decrease": "Misafir sayısını azalt",
+    "increase": "Misafir sayısını artır",
+    "submit": "Oda bul",
+    "demoNote": "Online rezervasyon demo modunda — müsaitlik doğrudan otel tarafından onaylanır.",
+    "errors": {
+      "checkInRequired": "Lütfen bir giriş tarihi seçin",
+      "checkOutRequired": "Lütfen bir çıkış tarihi seçin",
+      "checkInPast": "Giriş tarihi geçmiş bir gün olamaz",
+      "checkOutAfter": "Çıkış tarihi giriş tarihinden sonra olmalıdır",
+      "maxStay": "30 geceden uzun konaklamalar için lütfen bizimle iletişime geçin"
+    }
+  },
+  "home": {
+    "styles": {
+      "title": "Her yolculuğa uygun bir konaklama",
+      "subtitle": "Ailenizle, çift olarak ya da iş için — yolculuğunuza en uygun odaları ve alanları bulun.",
+      "items": {
+        "couples": {
+          "title": "İki kişilik",
+          "text": "Çiftler için çift kişilik ve deluxe odalar.",
+          "alt": "Sıcak ışıklı çift kişilik oda"
+        },
+        "twin": {
+          "title": "Arkadaşlar ve iş arkadaşları",
+          "text": "İki ayrı yataklı odalar.",
+          "alt": "İki tek kişilik yataklı oda"
+        },
+        "family": {
+          "title": "Aile gezileri",
+          "text": "Üç kişilik odalar.",
+          "alt": "Çift ve tek kişilik yataklı üç kişilik oda"
+        },
+        "business": {
+          "title": "İş ve etkinlikler",
+          "text": "Toplantı ve ziyafet salonu.",
+          "alt": "Uzun toplantı masalı konferans salonu"
+        }
+      }
+    },
+    "featured": {
+      "title": "Seveceğiniz odalar",
+      "subtitle": "Fergana Vadisi'nin kalbinde dinlendirici bir konaklama için sakin ve konforlu odalar.",
+      "viewAll": "Tüm odalar"
+    },
+    "why": {
+      "eyebrow": "Neden Tantana",
+      "title": "Misafirler neden Tantana Hotel'i seçiyor",
+      "items": {
+        "location": {
+          "title": "Fergana'nın merkezinde",
+          "text": "El-Fergani Caddesi'nde — vadiyi keşfetmek için elverişli bir başlangıç noktası."
+        },
+        "rooms": {
+          "title": "64 oda",
+          "text": "Klimalı ve ücretsiz Wi-Fi'lı çift kişilik, twin ve üç kişilik odalar."
+        },
+        "breakfast": {
+          "title": "Açık büfe kahvaltı",
+          "text": "Güne otelin restoranında başlayın."
+        },
+        "reception": {
+          "title": "24 saat açık resepsiyon",
+          "text": "Her saatte yardım, bagaj muhafazası ve hızlı giriş."
+        }
+      }
+    },
+    "experiences": {
+      "eyebrow": "Deneyimler",
+      "title": "Sadece uyunacak bir yer değil",
+      "subtitle": "Kahvaltıdan iş toplantılarına — ihtiyacınız olan her şey tek çatı altında."
+    },
+    "discover": {
+      "eyebrow": "Fergana'yı keşfedin",
+      "title": "İpek, seramik ve meyve bahçeleri vadisi",
+      "subtitle": "Fergana; Margilan, Rişton ve Kokand'ı keşfetmek için ideal bir başlangıç noktasıdır.",
+      "cta": "Bölgeyi keşfedin"
+    },
+    "cta": {
+      "title": "Fergana'daki konaklamanız burada başlıyor",
+      "subtitle": "Tarihlerinizi seçin ve rezervasyon talebi gönderin — ekibimiz onay için sizinle iletişime geçecek.",
+      "button": "Tarihleri seçin"
+    }
+  },
+  "rooms": {
+    "eyebrow": "Konaklama",
+    "title": "Odalar ve süitler",
+    "subtitle": "Her oda dinlenmek için tasarlandı: sessiz, konforlu ve özenle donatılmış.",
+    "placeholderNotice": "Oda tipleri, büyüklükleri, fiyatları ve fotoğrafları otel kesin bilgileri paylaşana kadar örnek veridir. Gösterilen fiyatlar teklif değildir.",
+    "searchSummary": "{{from}} — {{to}} · {{nights}} · {{guests}}",
+    "filters": {
+      "title": "Filtreler",
+      "open": "Filtreler",
+      "close": "Filtreleri kapat",
+      "guests": "Misafirler",
+      "any": "Fark etmez",
+      "type": "Oda tipi",
+      "types": {
+        "standard": "Standart",
+        "deluxe": "Deluxe",
+        "twin": "Twin",
+        "triple": "Üç kişilik"
+      },
+      "price": "Gecelik fiyat",
+      "priceAny": "Tüm fiyatlar",
+      "priceUpTo": "En fazla {{value}}",
+      "amenities": "Olanaklar",
+      "reset": "Sıfırla",
+      "results_one": "{{count}} oda bulundu",
+      "results_other": "{{count}} oda bulundu",
+      "show_one": "{{count}} odayı göster",
+      "show_other": "{{count}} odayı göster"
+    },
+    "empty": {
+      "title": "Filtrelerinize uygun oda yok",
+      "text": "Bir filtreyi kaldırmayı veya daha az misafir seçmeyi deneyin.",
+      "reset": "Filtreleri sıfırla"
+    },
+    "card": {
+      "guests_one": "En fazla {{count}} misafir",
+      "guests_other": "En fazla {{count}} misafir",
+      "size": "{{value}} m²",
+      "perNight": "/ gece",
+      "sample": "Örnek fiyat — teyit edilecek",
+      "details": "Detayları gör",
+      "book": "Bu odayı ayırt"
+    },
+    "beds": {
+      "double": "Çift kişilik yatak",
+      "twin": "İki tek kişilik yatak",
+      "doublePlusSingle": "Çift kişilik + tek kişilik yatak"
+    },
+    "amenities": {
+      "wifi": "Ücretsiz Wi-Fi",
+      "ac": "Klima",
+      "heating": "Isıtma",
+      "tv": "Düz ekran TV",
+      "desk": "Çalışma masası",
+      "wardrobe": "Gardırop",
+      "hairdryer": "Saç kurutma makinesi",
+      "toiletries": "Banyo malzemeleri",
+      "roomService": "Odaya yemek servisi",
+      "nonSmoking": "Sigara içilmeyen oda"
+    },
+    "items": {
+      "standard-double": {
+        "name": "Standart Çift Kişilik Oda",
+        "short": "Çift kişilik yatak, çalışma masası ve duvar TV'si olan aydınlık bir oda.",
+        "description": "Standart Çift Kişilik Oda; rahat bir çift kişilik yatak, çalışma masası, gardırop ve duşlu özel banyosuyla sakin ve aydınlık bir alandır. Oda büyüklüğü ve fiyatı otel tarafından teyit edilecektir.",
+        "alt": "Kahverengi yatak örtülü ve masalı standart çift kişilik oda"
+      },
+      "deluxe-double": {
+        "name": "Deluxe Çift Kişilik Oda",
+        "short": "Yumuşak duvar aydınlatması, çift kişilik yatak ve odaya yemek servisi.",
+        "description": "Deluxe odada sıcak duvar aydınlatması, çift kişilik yatak ve oturma alanı bulunur; odaya yemek servisi mevcuttur. Oda büyüklüğü ve fiyatı otel tarafından teyit edilecektir.",
+        "alt": "Sıcak duvar ışıklarıyla deluxe oda"
+      },
+      "budget-twin": {
+        "name": "Ekonomik Twin Oda",
+        "short": "Arkadaşlar veya iş arkadaşları için iki ayrı yatak.",
+        "description": "Ekonomik Twin Oda'da iki tek kişilik yatak, düz ekran TV, gardırop ve özel banyo bulunur — arkadaşlar veya iş arkadaşları için pratik bir seçim. Oda büyüklüğü ve fiyatı otel tarafından teyit edilecektir.",
+        "alt": "İki yataklı ve TV'li twin oda"
+      },
+      "triple": {
+        "name": "Üç Kişilik Oda",
+        "short": "Bir çift ve bir tek kişilik yatak — üç kişi için.",
+        "description": "Üç Kişilik Oda'da bir çift kişilik ve bir tek kişilik yatak bulunur; küçük bir aile veya üç gezgin birlikte rahatça konaklayabilir. Oda büyüklüğü ve fiyatı otel tarafından teyit edilecektir.",
+        "alt": "Çift ve tek kişilik yataklı üç kişilik oda"
+      }
+    }
+  },
+  "room": {
+    "overview": "Oda hakkında",
+    "details": "Oda bilgileri",
+    "amenities": "Oda olanakları",
+    "facts": {
+      "capacity": "Misafir",
+      "bed": "Yatak",
+      "size": "Büyüklük",
+      "times": "Giriş / çıkış"
+    },
+    "bookTitle": "Bu odayı ayırtın",
+    "bookSubtitle": "Tarihlerinizi seçin",
+    "skipDates": "Tarih seçmeden devam et",
+    "related": "Bunları da beğenebilirsiniz",
+    "notFound": "Bu oda bulunamadı. Adı değişmiş veya kaldırılmış olabilir.",
+    "gallery": {
+      "label": "Oda fotoğraf galerisi",
+      "openImage": "{{total}} fotoğraftan {{current}}. fotoğrafı aç",
+      "viewAll_one": "{{count}} fotoğrafı göster",
+      "viewAll_other": "{{count}} fotoğrafın tümünü göster",
+      "counter": "{{current}} / {{total}}",
+      "prev": "Önceki fotoğraf",
+      "next": "Sonraki fotoğraf",
+      "close": "Galeriyi kapat"
+    }
+  },
+  "experiences": {
+    "eyebrow": "Otel deneyimleri",
+    "title": "Konfor, lezzet ve buluşma alanları",
+    "subtitle": "Restoran, toplantı salonu ve günün her saatinde açık resepsiyon.",
+    "sourceNote": "Bu hizmet listesi online rezervasyon platformlarında yayınlanan bilgilere dayanmaktadır ve otelin onayını beklemektedir. Mevsimlik hizmetler değişebilir.",
+    "toConfirm": "Otel tarafından teyit edilecek",
+    "jumpTo": "Bir deneyime git",
+    "items": {
+      "restaurant": {
+        "tag": "Yeme-içme",
+        "title": "Restoran",
+        "short": "Rahat oturma alanlı geniş restoran salonu.",
+        "text": "Otel restoranı öğle yemeği, akşam yemeği veya arkadaş buluşmaları için rahat bir mekândır. Yiyecek ve içecekler odanıza da getirilebilir.",
+        "points": [
+          "Otel restoranı",
+          "Odaya yiyecek ve içecek servisi"
+        ]
+      },
+      "breakfast": {
+        "tag": "Kahvaltı",
+        "title": "Açık büfe kahvaltı",
+        "short": "Her sabah açık büfe kahvaltı.",
+        "text": "Fergana'yı ve vadiyi keşfe çıkmadan önce güne açık büfe kahvaltıyla başlayın.",
+        "points": [
+          "Açık büfe kahvaltı",
+          "Otel restoranında servis edilir"
+        ]
+      },
+      "events": {
+        "tag": "Etkinlikler",
+        "title": "Toplantı ve ziyafet salonu",
+        "short": "Projeksiyon perdeli toplantı odası ve ziyafet salonu.",
+        "text": "İş toplantılarınızı, sunumlarınızı ve kutlamalarınızı otelde gerçekleştirin. Toplantı ve ziyafet salonu ek ücret karşılığında kullanılabilir.",
+        "points": [
+          "Projeksiyon perdeli toplantı salonu",
+          "Ziyafet salonu",
+          "Ek ücrete tabidir"
+        ]
+      },
+      "reception": {
+        "tag": "Hizmet",
+        "title": "24 saat açık resepsiyon",
+        "short": "Her saatte yardım; hızlı giriş ve çıkış.",
+        "text": "Resepsiyon ekibi giriş, bagaj ve konaklamanızla ilgili her konuda günün her saatinde yardımcı olur.",
+        "points": [
+          "7/24 resepsiyon",
+          "Hızlı giriş ve çıkış",
+          "Bagaj muhafazası"
+        ]
+      },
+      "parking": {
+        "tag": "Otopark",
+        "title": "Otopark",
+        "short": "Otelin önünde otopark.",
+        "text": "Arabayla mı geliyorsunuz? Otel binasının hemen önünde otopark bulunur.",
+        "points": [
+          "Tesis içi otopark",
+          "Bina dışında video gözetimi"
+        ]
+      },
+      "services": {
+        "tag": "Konfor",
+        "title": "Günlük hizmetler",
+        "short": "Asansör, günlük temizlik, çamaşır ve ütü.",
+        "text": "Konaklamayı kolaylaştıran ayrıntılar: her kata asansör, günlük temizlik, çamaşır ve ütü hizmetleri.",
+        "points": [
+          "Asansör",
+          "Günlük temizlik",
+          "Çamaşır ve ütü (ücretli)",
+          "Tüm tesiste sigara içilmez"
+        ]
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Otel hakkında",
+    "title": "Fergana'da Tantana Hotel",
+    "subtitle": "Konforu, huzuru ve içten misafirperverliği önemseyen gezginler için Fergana'nın merkezinde modern bir otel.",
+    "facts": {
+      "rooms": "Oda",
+      "checkIn": "Giriş",
+      "checkOut": "Çıkış",
+      "reception": "Resepsiyon"
+    },
+    "story": {
+      "eyebrow": "Otelimiz",
+      "title": "Kendi temponuzda Özbek misafirperverliği",
+      "paragraphs": [
+        "Tantana Hotel, misafirlerini Fergana'da El-Fergani Caddesi'nde ağırlıyor. Fergana; ipek atölyeleri, seramik ustaları ve yeşil bahçeleriyle ünlü Fergana Vadisi'nin kapısıdır.",
+        "İster iş seyahati, ister aile kutlaması, ister bölgeyi keşif için gelin; otel restoranı, toplantı salonu ve 24 saat açık resepsiyonuyla size huzurlu bir üs sunar."
+      ]
+    },
+    "missingNote": "Otelin tarihçesi, ekibi ve resmî fotoğrafları otel tarafından iletildiğinde eklenecektir."
+  },
+  "discover": {
+    "eyebrow": "Fergana Vadisi",
+    "title": "Fergana'yı keşfedin",
+    "subtitle": "İpek atölyeleri, seramik gelenekleri, tarihi saraylar ve dağ havası — vadi meraklı gezginleri ödüllendirir.",
+    "note": "Fotoğraflar temsilidir. Mesafeler, ziyaret saatleri ve yolculuk süreleri burada yer almaz — lütfen seyahatten önce kontrol edin veya resepsiyona danışın.",
+    "openMap": "Google Haritalar'da aç",
+    "items": {
+      "margilan": {
+        "name": "Margilan ve Yodgorlik İpek Fabrikası",
+        "place": "Margilan",
+        "text": "Margilan ipeğiyle ünlüdür. Yodgorlik fabrikasında geleneksel atlas ve adras kumaşlarının elde nasıl dokunduğunu görebilirsiniz.",
+        "alt": "Rengârenk ipek iplikler ve kumaşlar"
+      },
+      "rishtan": {
+        "name": "Rişton seramikleri",
+        "place": "Rişton",
+        "text": "Rişton, koyu mavi ve turkuaz sırlarıyla yüzyıllardır bir seramik merkezidir. Bir ustanın atölyesini ziyaret edip zanaatı yakından görün.",
+        "alt": "Elle boyanmış mavi seramik tabaklar"
+      },
+      "kokand": {
+        "name": "Hudayar Han Sarayı",
+        "place": "Kokand",
+        "text": "Kokand Hanlığı'nın son hükümdarına ait, zengin süslemeli cepheleri ve avlularıyla 19. yüzyıl sarayı.",
+        "alt": "Süslü çinilerle tarihi mimari"
+      },
+      "ferganaPark": {
+        "name": "El-Fergani Parkı",
+        "place": "Fergana",
+        "text": "Adını Orta Çağ astronomu El-Fergani'den alan, akşam yürüyüşü için hoş bir büyük şehir parkı.",
+        "alt": "Uzun ağaçlı yeşil bir park"
+      },
+      "kumtepa": {
+        "name": "Kumtepa Pazarı",
+        "place": "Margilan",
+        "text": "Kumaşlar, yerel ürünler ve vadinin gündelik yaşamıyla karşılaşabileceğiniz geleneksel bir pazar.",
+        "alt": "Kalabalık geleneksel bir pazar"
+      },
+      "museum": {
+        "name": "Fergana Bölge Müzesi",
+        "place": "Fergana",
+        "text": "Bölge tarih müzesi, Fergana Vadisi'nin tarihini, doğasını ve kültürünü tanıtır.",
+        "alt": "Sergilenen eserlerle müze içi"
+      },
+      "shohimardon": {
+        "name": "Şahimerdan",
+        "place": "Fergana bölgesi",
+        "text": "Temiz havası ve Kökköl gölüyle bilinen dağlık bir bölge. Gezi planlamadan önce lütfen güncel giriş koşullarını kontrol edin.",
+        "alt": "Göllü dağ manzarası"
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "İletişim",
+    "title": "Yardım etmekten mutluluk duyarız",
+    "subtitle": "Odalar, etkinlikler veya Fergana gezinizle ilgili sorularınız mı var? Otelle iletişime geçin.",
+    "address": "Adres",
+    "addressValue": "El-Fergani Caddesi 122A, Fergana, Özbekistan",
+    "phone": "Telefon",
+    "phoneMissing": "Telefon numarası teyit edilecek",
+    "email": "E-posta",
+    "hours": "Giriş / çıkış",
+    "reception": "Resepsiyon 24 saat açık",
+    "mapTitle": "Tantana Hotel'in konumunu gösteren harita",
+    "form": {
+      "title": "Mesaj gönderin",
+      "demo": "Demo form: mesajlar henüz hiçbir yere gönderilmiyor. Acil sorularınız için lütfen oteli arayın.",
+      "name": "Adınız",
+      "email": "E-posta",
+      "message": "Mesaj",
+      "submit": "Mesajı gönder",
+      "sending": "Gönderiliyor…",
+      "success": "Teşekkürler! Bu bir demo olduğu için mesajınız gönderilmedi. Form bağlandığında otel size e-posta ile yanıt verecek.",
+      "errors": {
+        "messageRequired": "Lütfen bir mesaj yazın",
+        "messageShort": "Mesajınız biraz kısa — lütfen birkaç ayrıntı ekleyin"
+      }
+    }
+  },
+  "booking": {
+    "eyebrow": "Rezervasyon",
+    "title": "Rezervasyon",
+    "headings": {
+      "dates": "Ne zaman geliyorsunuz?",
+      "room": "Odanızı seçin",
+      "details": "Bilgileriniz",
+      "review": "Talebinizi kontrol edin"
+    },
+    "steps": {
+      "dates": "Tarih ve misafir",
+      "room": "Oda",
+      "details": "Misafir bilgileri",
+      "review": "Kontrol"
+    },
+    "stepsLabel": "Rezervasyon adımları",
+    "stepOf": "Adım {{current}} / {{total}}",
+    "stepDone": "tamamlandı",
+    "demoTitle": "Demo rezervasyon",
+    "demoBanner": "Online rezervasyon henüz bağlı değil. Tüm adımları deneyebilirsiniz ancak rezervasyon oluşturulmaz ve hiçbir veri gönderilmez. Rezervasyon için lütfen doğrudan otelle iletişime geçin.",
+    "datesHint": "Giriş 14:00'ten itibaren, çıkış 12:00'ye kadar.",
+    "selectRoom": "Bir oda seçin",
+    "select": "Seç",
+    "capacityHint_one": "{{count}} misafire uygun odalar gösteriliyor.",
+    "capacityHint_other": "{{count}} misafire uygun odalar gösteriliyor.",
+    "continue": "Devam et",
+    "back": "Geri",
+    "change": "Düzenle",
+    "changeDates": "Tarihleri değiştir",
+    "toReview": "Talebi kontrol et",
+    "submit": "Rezervasyon talebi gönder",
+    "submitting": "Gönderiliyor…",
+    "summary": {
+      "title": "Konaklamanız",
+      "noRoom": "Henüz oda seçilmedi.",
+      "checkIn": "Giriş",
+      "checkOut": "Çıkış",
+      "nights": "Süre",
+      "guests": "Misafirler",
+      "total": "Tahmini toplam",
+      "sampleTotal": "Örnek fiyatlara göre hesaplanmıştır. Kesin fiyatı otel onaylayacaktır."
+    },
+    "guest": {
+      "title": "Misafir bilgileri",
+      "subtitle": "Talebinizle ilgili sizinle bu bilgiler üzerinden iletişime geçeceğiz.",
+      "fullName": "Ad soyad",
+      "phone": "Telefon numarası",
+      "email": "E-posta adresi",
+      "arrival": "Tahmini varış saati",
+      "arrivalHint": "Bu bilgi, resepsiyon ekibinin varışınıza hazırlanmasına yardımcı olur.",
+      "requests": "Özel istekler",
+      "requestsPlaceholder": "Örn. bebek yatağı, sessiz bir oda veya geç varış",
+      "consent": "Otelin bu taleple ilgili benimle telefon veya e-posta yoluyla iletişime geçmesini kabul ediyorum."
+    },
+    "arrival": {
+      "unknown": "Henüz bilmiyorum",
+      "10-12": "10:00 – 12:00",
+      "12-14": "12:00 – 14:00",
+      "14-16": "14:00 – 16:00",
+      "16-18": "16:00 – 18:00",
+      "18-20": "18:00 – 20:00",
+      "20-22": "20:00 – 22:00",
+      "22-24": "22:00 – 00:00",
+      "after24": "Gece yarısından sonra"
+    },
+    "review": {
+      "title": "Bilgilerinizi kontrol edin",
+      "subtitle": "Göndermeden önce her şeyin doğru olduğundan emin olun."
+    },
+    "errors": {
+      "nameRequired": "Lütfen adınızı ve soyadınızı girin",
+      "nameShort": "Ad en az 3 karakter olmalıdır",
+      "nameLong": "Ad çok uzun",
+      "phoneRequired": "Lütfen telefon numaranızı girin",
+      "phoneInvalid": "Lütfen geçerli bir telefon numarası girin, örn. +998 90 123 45 67",
+      "emailRequired": "Lütfen e-posta adresinizi girin",
+      "emailInvalid": "Lütfen geçerli bir e-posta adresi girin",
+      "requestsLong": "Lütfen 500 karakteri aşmayın",
+      "consent": "Lütfen otelin sizinle iletişime geçebileceğini onaylayın",
+      "submitFailed": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
+    }
+  },
+  "confirmation": {
+    "title": "Talebiniz alındı",
+    "text": "Teşekkürler {{name}}. Rezervasyon talebinizin özeti aşağıdadır.",
+    "demoTitle": "Bu onaylanmış bir rezervasyon değildir",
+    "demoText": "Online rezervasyon demo modunda çalışıyor; bu talep otele gönderilmedi ve oda ayrılmadı. Gerçek bir rezervasyon için lütfen otelle iletişime geçin.",
+    "reference": "Demo talep numarası",
+    "nextTitle": "Sonraki adımlar",
+    "nextSteps": [
+      "Online rezervasyon bağlandığında otel, tarihleriniz için müsaitliği kontrol edecek.",
+      "Resepsiyon ekibi fiyatı ve rezervasyonu onaylamak için sizinle telefon veya e-posta ile iletişime geçecek.",
+      "Rezervasyonunuz yalnızca otel onayladıktan sonra kesinleşir."
+    ],
+    "home": "Ana sayfaya dön",
+    "emptyTitle": "Rezervasyon talebi bulunamadı",
+    "emptyText": "Tarih ve oda seçmek için yeni bir rezervasyon başlatın."
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "text": "Aradığınız sayfa mevcut değil ya da taşınmış.",
+    "home": "Ana sayfaya git"
+  },
+  "footer": {
+    "tagline": "Fergana Vadisi'nin kalbinde bir otel — konfor, huzur ve Özbek misafirperverliğinin sıcaklığı.",
+    "explore": "Keşfedin",
+    "contact": "İletişim",
+    "rights": "Tüm hakları saklıdır.",
+    "times": "Giriş {{checkIn}} · Çıkış {{checkOut}}",
+    "placeholderNote": "Bu sitedeki fiyatlar, oda bilgileri ve fotoğraflar otel onaylayana kadar örnek niteliğindedir."
+  },
+  "common": {
+    "demo": "Örnek bilgi",
+    "sample": "Örnek",
+    "toBeConfirmed": "Teyit edilecek",
+    "optional": "isteğe bağlı",
+    "learnMore": "Daha fazla bilgi",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "breadcrumbs": "Sayfa yolu",
+    "opensNewTab": "yeni sekmede açılır",
+    "photoSoon": "Fotoğraf yakında"
+  },
+  "images": {
+    "exterior": "Akşam ışıklarıyla aydınlatılmış Tantana Hotel binası",
+    "exteriorNight": "Gece Tantana Hotel ve geçen araçların ışık izleri",
+    "exteriorWide": "Bayraklar ve park etmiş araçlarla Tantana Hotel cephesi",
+    "exteriorStreet": "Akşam Tantana Hotel ve önündeki cadde",
+    "exteriorSunset": "Gün batımında otelin önündeki cadde",
+    "lobby": "Kanepeler ve resepsiyon bankosuyla otel lobisi",
+    "reception": "Duvarında saatler olan resepsiyon bankosu",
+    "corridor": "Aydınlık otel koridoru",
+    "lift": "Otel holünde asansör ve merdiven",
+    "conference": "Uzun masa ve projeksiyon perdeli toplantı salonu",
+    "conference2": "Deri koltuklu toplantı odası",
+    "cafe": "Masalar ve büfe tezgâhıyla otel kafesi",
+    "dining": "Masalar ve yumuşak kanepelerle restoran salonu",
+    "roomDouble": "Kahverengi yatak örtülü, yumuşak ışıklı çift kişilik oda",
+    "roomDouble2": "Büyük pencereli ve masalı çift kişilik oda",
+    "roomDouble3": "TV ve çalışma masalı çift kişilik oda",
+    "roomDeluxe": "Sıcak duvar ışıklarıyla deluxe oda",
+    "roomDeluxe2": "Duvara monte TV'li deluxe çift kişilik oda",
+    "roomTwin": "İki tek kişilik yataklı oda",
+    "roomTwin2": "TV ve gardıroplu twin oda",
+    "roomTriple": "Çift ve tek kişilik yataklı üç kişilik oda",
+    "roomTriple2": "TV ve çiçeklerle üç kişilik oda",
+    "bathroom": "Cam duşakabin ve lavabolu banyo",
+    "bathroom2": "Yağmur duşlu banyo",
+    "ferganaPark": "Uzun ağaçlı yeşil bir park",
+    "museum": "Sergilenen eserlerle müze içi",
+    "margilan": "Rengârenk ipek iplikler ve kumaşlar",
+    "bazaar": "Kalabalık geleneksel bir pazar",
+    "rishtan": "Elle boyanmış mavi seramik tabaklar",
+    "kokand": "Süslü çinilerle tarihi mimari",
+    "mountains": "Göllü dağ manzarası"
+  }
+}

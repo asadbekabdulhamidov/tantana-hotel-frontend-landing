@@ -1,0 +1,607 @@
+{
+  "meta": {
+    "home": {
+      "title": "Tantana Hotel — Hotel in Fergana, Uzbekistan",
+      "description": "Stay at Tantana Hotel in Fergana: comfortable rooms, a restaurant with buffet breakfast, a conference hall and warm Uzbek hospitality. Explore rooms and send a booking request."
+    },
+    "rooms": {
+      "title": "Rooms & Suites",
+      "description": "Compare rooms at Tantana Hotel in Fergana — guest capacity, bed type, room size and in-room amenities. Filter by guests, room type, price and amenities."
+    },
+    "room": {
+      "title": "{{name}} — Rooms",
+      "description": "{{name}} at Tantana Hotel, Fergana. {{short}}"
+    },
+    "experiences": {
+      "title": "Hotel Experiences & Amenities",
+      "description": "Restaurant, buffet breakfast, conference and banquet hall, 24-hour reception and free parking at Tantana Hotel in Fergana."
+    },
+    "about": {
+      "title": "About the Hotel",
+      "description": "Tantana Hotel is a 64-room hotel on Al-Fargani Street in Fergana, Uzbekistan, with a restaurant, conference hall and 24-hour reception."
+    },
+    "discover": {
+      "title": "Discover Fergana",
+      "description": "Travel inspiration for the Fergana Valley: Margilan silk, Rishtan ceramics, Kokand's palace, local bazaars and mountain escapes."
+    },
+    "contact": {
+      "title": "Contact & Location",
+      "description": "Find Tantana Hotel at Al-Fargani Street 122A, Fergana. Get directions and send us a message."
+    },
+    "booking": {
+      "title": "Book Your Stay",
+      "description": "Choose your dates, select a room and send a booking request to Tantana Hotel in Fergana."
+    },
+    "confirmation": {
+      "title": "Booking Request Received",
+      "description": "Your booking request summary for Tantana Hotel."
+    },
+    "notFound": {
+      "title": "Page Not Found",
+      "description": "The page you are looking for does not exist."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "rooms": "Rooms",
+    "experiences": "Experiences",
+    "discover": "Discover Fergana",
+    "about": "About",
+    "contact": "Contact",
+    "book": "Book now",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "skipToContent": "Skip to main content",
+    "language": "Language: {{lang}}. Change language",
+    "phoneLabel": "Call the hotel: {{phone}}",
+    "logoLabel": "Tantana Hotel — home page"
+  },
+  "hero": {
+    "eyebrow": "Fergana · Uzbekistan",
+    "title": "Discover the beauty of Fergana.",
+    "subtitle": "Experience exceptional comfort and the warmth of Uzbek hospitality.",
+    "ctaPrimary": "Book your stay",
+    "ctaSecondary": "Explore rooms",
+    "scroll": "Scroll",
+    "slidesLabel": "Hotel photos",
+    "goToSlide": "Show photo {{current}} of {{total}}: {{name}}",
+    "pause": "Pause slideshow",
+    "play": "Play slideshow"
+  },
+  "search": {
+    "title": "Find a room",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "guests": "Guests",
+    "guestCount_one": "{{count}} guest",
+    "guestCount_other": "{{count}} guests",
+    "nights_one": "{{count}} night",
+    "nights_other": "{{count}} nights",
+    "addDate": "Add date",
+    "decrease": "Fewer guests",
+    "increase": "More guests",
+    "submit": "Find a room",
+    "demoNote": "Online booking is in demo mode — availability is confirmed by the hotel directly.",
+    "errors": {
+      "checkInRequired": "Please choose a check-in date",
+      "checkOutRequired": "Please choose a check-out date",
+      "checkInPast": "Check-in can't be in the past",
+      "checkOutAfter": "Check-out must be after check-in",
+      "maxStay": "For stays longer than 30 nights, please contact us"
+    }
+  },
+  "home": {
+    "styles": {
+      "title": "A stay for every kind of trip",
+      "subtitle": "Whether you're travelling with family, as a couple or for work, find the rooms and spaces that suit your journey.",
+      "items": {
+        "couples": {
+          "title": "For two",
+          "text": "Double and deluxe rooms for couples.",
+          "alt": "Double room with warm lighting"
+        },
+        "twin": {
+          "title": "Friends & colleagues",
+          "text": "Twin rooms with two separate beds.",
+          "alt": "Twin room with two single beds"
+        },
+        "family": {
+          "title": "Family trips",
+          "text": "Triple rooms with space for three.",
+          "alt": "Triple room with a double and a single bed"
+        },
+        "business": {
+          "title": "Business & events",
+          "text": "Conference and banquet hall.",
+          "alt": "Conference room with a long meeting table"
+        }
+      }
+    },
+    "featured": {
+      "title": "Rooms you'll love",
+      "subtitle": "Calm, comfortable rooms designed for a restful stay in the heart of the Fergana Valley.",
+      "viewAll": "View all rooms"
+    },
+    "why": {
+      "eyebrow": "Why Tantana",
+      "title": "Why guests choose Tantana Hotel",
+      "items": {
+        "location": {
+          "title": "In the centre of Fergana",
+          "text": "On Al-Fargani Street — a convenient base for exploring the Fergana Valley."
+        },
+        "rooms": {
+          "title": "64 rooms",
+          "text": "Double, twin and triple rooms with air conditioning and free Wi-Fi."
+        },
+        "breakfast": {
+          "title": "Buffet breakfast",
+          "text": "Start the day at the hotel restaurant."
+        },
+        "reception": {
+          "title": "24-hour reception",
+          "text": "Help at any hour, luggage storage and express check-in."
+        }
+      }
+    },
+    "experiences": {
+      "eyebrow": "Experiences",
+      "title": "More than a place to sleep",
+      "subtitle": "From breakfast to business meetings — everything you need is under one roof."
+    },
+    "discover": {
+      "eyebrow": "Discover Fergana",
+      "title": "The valley of silk, ceramics and orchards",
+      "subtitle": "Fergana is the perfect starting point for exploring Margilan, Rishtan and Kokand.",
+      "cta": "Explore the region"
+    },
+    "cta": {
+      "title": "Your stay in Fergana starts here",
+      "subtitle": "Choose your dates and send a booking request — our team will get back to you to confirm.",
+      "button": "Check dates"
+    }
+  },
+  "rooms": {
+    "eyebrow": "Accommodation",
+    "title": "Rooms & suites",
+    "subtitle": "Every room is designed for rest: quiet, comfortable and thoughtfully equipped.",
+    "placeholderNotice": "Room categories, sizes, prices and photos are sample data until the hotel provides final information. Prices shown are not offers.",
+    "searchSummary": "{{from}} — {{to}} · {{nights}} · {{guests}}",
+    "filters": {
+      "title": "Filters",
+      "open": "Filters",
+      "close": "Close filters",
+      "guests": "Guests",
+      "any": "Any",
+      "type": "Room type",
+      "types": {
+        "standard": "Standard",
+        "deluxe": "Deluxe",
+        "twin": "Twin",
+        "triple": "Triple"
+      },
+      "price": "Price per night",
+      "priceAny": "Any price",
+      "priceUpTo": "Up to {{value}}",
+      "amenities": "Amenities",
+      "reset": "Reset",
+      "results_one": "{{count}} room found",
+      "results_other": "{{count}} rooms found",
+      "show_one": "Show {{count}} room",
+      "show_other": "Show {{count}} rooms"
+    },
+    "empty": {
+      "title": "No rooms match your filters",
+      "text": "Try removing a filter or choosing fewer guests.",
+      "reset": "Reset filters"
+    },
+    "card": {
+      "guests_one": "Up to {{count}} guest",
+      "guests_other": "Up to {{count}} guests",
+      "size": "{{value}} m²",
+      "perNight": "/ night",
+      "sample": "Sample price — to be confirmed",
+      "details": "View details",
+      "book": "Book this room"
+    },
+    "beds": {
+      "double": "Double bed",
+      "twin": "Two single beds",
+      "doublePlusSingle": "Double bed + single bed"
+    },
+    "amenities": {
+      "wifi": "Free Wi-Fi",
+      "ac": "Air conditioning",
+      "heating": "Heating",
+      "tv": "Flat-screen TV",
+      "desk": "Desk",
+      "wardrobe": "Wardrobe",
+      "hairdryer": "Hairdryer",
+      "toiletries": "Toiletries",
+      "roomService": "In-room dining",
+      "nonSmoking": "Non-smoking"
+    },
+    "items": {
+      "standard-double": {
+        "name": "Standard Double Room",
+        "short": "A bright room with a double bed, a desk and a wall-mounted TV.",
+        "description": "The Standard Double Room is a calm, bright space with a comfortable double bed, a work desk, a wardrobe and a private bathroom with a shower. Room size and price will be confirmed by the hotel.",
+        "alt": "Standard double room with a brown bedspread and a desk"
+      },
+      "deluxe-double": {
+        "name": "Deluxe Double Room",
+        "short": "Soft wall lighting, a double bed and in-room dining.",
+        "description": "The Deluxe Double Room features warm wall lighting, a double bed and a seating area, with in-room dining available. Room size and price will be confirmed by the hotel.",
+        "alt": "Deluxe double room with warm wall lights"
+      },
+      "budget-twin": {
+        "name": "Budget Twin Room",
+        "short": "Two separate beds for friends or colleagues.",
+        "description": "The Budget Twin Room has two single beds, a flat-screen TV, a wardrobe and a private bathroom — a practical choice for friends or colleagues. Room size and price will be confirmed by the hotel.",
+        "alt": "Twin room with two single beds and a TV"
+      },
+      "triple": {
+        "name": "Triple Room",
+        "short": "A double bed and a single bed — room for three.",
+        "description": "The Triple Room combines a double bed and a single bed, so a small family or three travellers can stay together comfortably. Room size and price will be confirmed by the hotel.",
+        "alt": "Triple room with a double bed and a single bed"
+      }
+    }
+  },
+  "room": {
+    "overview": "About this room",
+    "details": "Room details",
+    "amenities": "In-room amenities",
+    "facts": {
+      "capacity": "Guests",
+      "bed": "Bed",
+      "size": "Size",
+      "times": "Check-in / out"
+    },
+    "bookTitle": "Book this room",
+    "bookSubtitle": "Choose your dates",
+    "skipDates": "Continue without dates",
+    "related": "You may also like",
+    "notFound": "We couldn't find this room. It may have been renamed or removed.",
+    "gallery": {
+      "label": "Room photo gallery",
+      "openImage": "Open photo {{current}} of {{total}}",
+      "viewAll_one": "Show {{count}} photo",
+      "viewAll_other": "Show all {{count}} photos",
+      "counter": "{{current}} / {{total}}",
+      "prev": "Previous photo",
+      "next": "Next photo",
+      "close": "Close gallery"
+    }
+  },
+  "experiences": {
+    "eyebrow": "Hotel experiences",
+    "title": "Comfort, dining and space to meet",
+    "subtitle": "A restaurant, a conference hall and a reception team that is there around the clock.",
+    "sourceNote": "This list of services is based on information published on online booking platforms and is awaiting confirmation from the hotel. Seasonal services may vary.",
+    "toConfirm": "To be confirmed by the hotel",
+    "jumpTo": "Jump to an experience",
+    "items": {
+      "restaurant": {
+        "tag": "Dining",
+        "title": "Restaurant",
+        "short": "A spacious restaurant hall with comfortable seating.",
+        "text": "The hotel restaurant is a comfortable place for lunch, dinner or a meeting with friends. Food and drinks can also be delivered to your room.",
+        "points": [
+          "Hotel restaurant",
+          "In-room food and drink delivery"
+        ]
+      },
+      "breakfast": {
+        "tag": "Breakfast",
+        "title": "Buffet breakfast",
+        "short": "Breakfast served buffet-style every morning.",
+        "text": "Start your day with a buffet breakfast before heading out to explore Fergana and the valley.",
+        "points": [
+          "Buffet-style breakfast",
+          "Served in the hotel restaurant"
+        ]
+      },
+      "events": {
+        "tag": "Events",
+        "title": "Conference & banquet hall",
+        "short": "A meeting room with a projector screen and a banquet hall.",
+        "text": "Host business meetings, presentations or celebrations at the hotel. The conference and banquet hall is available for an additional fee.",
+        "points": [
+          "Conference room with a projector screen",
+          "Banquet hall",
+          "Additional charge applies"
+        ]
+      },
+      "reception": {
+        "tag": "Service",
+        "title": "24-hour reception",
+        "short": "Help at any hour, with express check-in and check-out.",
+        "text": "The reception team is available around the clock to help with check-in, luggage and any questions about your stay.",
+        "points": [
+          "Reception open 24/7",
+          "Express check-in and check-out",
+          "Luggage storage"
+        ]
+      },
+      "parking": {
+        "tag": "Parking",
+        "title": "Parking",
+        "short": "On-site parking in front of the hotel.",
+        "text": "Arriving by car? The hotel has on-site parking right in front of the building.",
+        "points": [
+          "On-site parking",
+          "Video surveillance of the exterior"
+        ]
+      },
+      "services": {
+        "tag": "Comfort",
+        "title": "Everyday services",
+        "short": "Lift, daily housekeeping, laundry and ironing.",
+        "text": "Small things make a stay easier: a lift to every floor, daily housekeeping and laundry and ironing services.",
+        "points": [
+          "Lift",
+          "Daily housekeeping",
+          "Laundry and ironing (paid)",
+          "Non-smoking throughout"
+        ]
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "About the hotel",
+    "title": "Tantana Hotel in Fergana",
+    "subtitle": "A modern hotel in the centre of Fergana for travellers who value comfort, calm and genuine hospitality.",
+    "facts": {
+      "rooms": "Rooms",
+      "checkIn": "Check-in from",
+      "checkOut": "Check-out until",
+      "reception": "Reception"
+    },
+    "story": {
+      "eyebrow": "Our hotel",
+      "title": "Uzbek hospitality, at your pace",
+      "paragraphs": [
+        "Tantana Hotel welcomes guests on Al-Fargani Street in Fergana — a city known as the gateway to the Fergana Valley, its silk workshops, ceramic masters and green orchards.",
+        "Whether you are visiting for business, a family celebration or to explore the region, the hotel offers a calm base with a restaurant, a conference hall and a reception team that is available around the clock."
+      ]
+    },
+    "missingNote": "The hotel's history, team and official photos will be added once provided by the hotel."
+  },
+  "discover": {
+    "eyebrow": "Fergana Valley",
+    "title": "Discover Fergana",
+    "subtitle": "Silk workshops, ceramic traditions, historic palaces and mountain air — the valley rewards curious travellers.",
+    "note": "Photos are illustrative. Distances, opening hours and travel times aren't listed here — please check them before you travel or ask the reception team.",
+    "openMap": "Open in Google Maps",
+    "items": {
+      "margilan": {
+        "name": "Margilan & the Yodgorlik Silk Factory",
+        "place": "Margilan",
+        "text": "Margilan is famous for its silk. At the Yodgorlik factory you can see how traditional atlas and adras fabrics are made by hand.",
+        "alt": "Colourful silk threads and fabrics"
+      },
+      "rishtan": {
+        "name": "Rishtan ceramics",
+        "place": "Rishtan",
+        "text": "Rishtan has been a centre of ceramics for centuries, known for its deep blue and turquoise glazes. Visit a master's workshop and see the craft up close.",
+        "alt": "Hand-painted blue ceramic plates"
+      },
+      "kokand": {
+        "name": "Khudoyar Khan Palace",
+        "place": "Kokand",
+        "text": "The 19th-century palace of the last ruler of the Kokand Khanate, with richly decorated facades and courtyards.",
+        "alt": "Historic architecture with decorative tiles"
+      },
+      "ferganaPark": {
+        "name": "Al-Fargani Park",
+        "place": "Fergana",
+        "text": "A large green park in the city named after the medieval astronomer Al-Fargani — a pleasant place for an evening walk.",
+        "alt": "A green park with tall trees"
+      },
+      "kumtepa": {
+        "name": "Kumtepa Bazaar",
+        "place": "Margilan",
+        "text": "A traditional market where you can find textiles, local produce and everyday life of the valley.",
+        "alt": "A busy traditional market"
+      },
+      "museum": {
+        "name": "Fergana Regional Museum",
+        "place": "Fergana",
+        "text": "The regional museum of local lore introduces the history, nature and culture of the Fergana Valley.",
+        "alt": "Museum interior with exhibits"
+      },
+      "shohimardon": {
+        "name": "Shohimardon",
+        "place": "Fergana region",
+        "text": "A mountain area known for its fresh air and the Kokkul lake. Please check current travel requirements before planning a trip.",
+        "alt": "Mountain landscape with a lake"
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "We're here to help",
+    "subtitle": "Questions about rooms, events or your trip to Fergana? Get in touch with the hotel.",
+    "address": "Address",
+    "addressValue": "Al-Fargani Street 122A, Fergana, Uzbekistan",
+    "phone": "Phone",
+    "phoneMissing": "Phone number to be confirmed",
+    "email": "Email",
+    "hours": "Check-in / check-out",
+    "reception": "Reception is open 24 hours",
+    "mapTitle": "Map showing the location of Tantana Hotel",
+    "form": {
+      "title": "Send a message",
+      "demo": "Demo form: messages are not sent anywhere yet. Please call the hotel for urgent questions.",
+      "name": "Your name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Thank you! This is a demo, so your message wasn't sent — once the form is connected, the hotel will reply by email.",
+      "errors": {
+        "messageRequired": "Please write a message",
+        "messageShort": "Your message is a little short — please add a few more details"
+      }
+    }
+  },
+  "booking": {
+    "eyebrow": "Booking",
+    "title": "Booking",
+    "headings": {
+      "dates": "When are you visiting?",
+      "room": "Choose your room",
+      "details": "Your details",
+      "review": "Review your request"
+    },
+    "steps": {
+      "dates": "Dates & guests",
+      "room": "Room",
+      "details": "Guest details",
+      "review": "Review"
+    },
+    "stepsLabel": "Booking progress",
+    "stepOf": "Step {{current}} of {{total}}",
+    "stepDone": "completed",
+    "demoTitle": "Demo booking",
+    "demoBanner": "Online booking isn't connected yet. You can walk through every step, but no reservation is made and no data is sent. To book, please contact the hotel directly.",
+    "datesHint": "Check-in from 14:00, check-out until 12:00.",
+    "selectRoom": "Select a room",
+    "select": "Select",
+    "capacityHint_one": "Showing rooms suitable for {{count}} guest.",
+    "capacityHint_other": "Showing rooms suitable for {{count}} guests.",
+    "continue": "Continue",
+    "back": "Back",
+    "change": "Edit",
+    "changeDates": "Change dates",
+    "toReview": "Review request",
+    "submit": "Send booking request",
+    "submitting": "Sending…",
+    "summary": {
+      "title": "Your stay",
+      "noRoom": "No room selected yet.",
+      "checkIn": "Check-in",
+      "checkOut": "Check-out",
+      "nights": "Length",
+      "guests": "Guests",
+      "total": "Estimated total",
+      "sampleTotal": "Based on sample prices. The final price will be confirmed by the hotel."
+    },
+    "guest": {
+      "title": "Guest information",
+      "subtitle": "We'll use these details to contact you about your request.",
+      "fullName": "Full name",
+      "phone": "Phone number",
+      "email": "Email address",
+      "arrival": "Estimated arrival time",
+      "arrivalHint": "This helps the reception team prepare for your arrival.",
+      "requests": "Special requests",
+      "requestsPlaceholder": "e.g. a baby cot, a quiet room or a late arrival",
+      "consent": "I agree that the hotel may contact me about this request by phone or email."
+    },
+    "arrival": {
+      "unknown": "I'm not sure yet",
+      "10-12": "10:00 – 12:00",
+      "12-14": "12:00 – 14:00",
+      "14-16": "14:00 – 16:00",
+      "16-18": "16:00 – 18:00",
+      "18-20": "18:00 – 20:00",
+      "20-22": "20:00 – 22:00",
+      "22-24": "22:00 – 00:00",
+      "after24": "After midnight"
+    },
+    "review": {
+      "title": "Check your details",
+      "subtitle": "Please make sure everything is correct before sending."
+    },
+    "errors": {
+      "nameRequired": "Please enter your full name",
+      "nameShort": "Name must be at least 3 characters",
+      "nameLong": "Name is too long",
+      "phoneRequired": "Please enter your phone number",
+      "phoneInvalid": "Please enter a valid phone number, e.g. +998 90 123 45 67",
+      "emailRequired": "Please enter your email address",
+      "emailInvalid": "Please enter a valid email address",
+      "requestsLong": "Please keep this under 500 characters",
+      "consent": "Please confirm that the hotel may contact you",
+      "submitFailed": "Something went wrong. Please try again."
+    }
+  },
+  "confirmation": {
+    "title": "Request received",
+    "text": "Thank you, {{name}}. Here is a summary of your booking request.",
+    "demoTitle": "This is not a confirmed reservation",
+    "demoText": "Online booking runs in demo mode, so this request was not sent to the hotel and no room is reserved. Please contact the hotel to make a real booking.",
+    "reference": "Demo reference",
+    "nextTitle": "What happens next",
+    "nextSteps": [
+      "Once online booking is connected, the hotel will check availability for your dates.",
+      "The reception team will contact you by phone or email to confirm the price and your reservation.",
+      "Your reservation is confirmed only after the hotel confirms it."
+    ],
+    "home": "Back to home",
+    "emptyTitle": "No booking request found",
+    "emptyText": "Start a new booking to choose your dates and room."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you're looking for doesn't exist or has moved.",
+    "home": "Go to home page"
+  },
+  "footer": {
+    "tagline": "A hotel in the heart of the Fergana Valley — comfort, calm and the warmth of Uzbek hospitality.",
+    "explore": "Explore",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "times": "Check-in {{checkIn}} · Check-out {{checkOut}}",
+    "placeholderNote": "Prices, room details and photos on this site are samples until confirmed by the hotel."
+  },
+  "common": {
+    "demo": "Sample information",
+    "sample": "Sample",
+    "toBeConfirmed": "To be confirmed",
+    "optional": "optional",
+    "learnMore": "Learn more",
+    "previous": "Previous",
+    "next": "Next",
+    "breadcrumbs": "Breadcrumb",
+    "opensNewTab": "opens in a new tab",
+    "photoSoon": "Photo coming soon"
+  },
+  "images": {
+    "exterior": "Tantana Hotel building lit up at dusk",
+    "exteriorNight": "Tantana Hotel at night with light trails from passing cars",
+    "exteriorWide": "Tantana Hotel facade with flags and parked cars",
+    "exteriorStreet": "Tantana Hotel and the street in front of it in the evening",
+    "exteriorSunset": "Street in front of the hotel at sunset",
+    "lobby": "Hotel lobby with sofas and the reception desk",
+    "reception": "Reception desk with world clocks on the wall",
+    "corridor": "Bright hotel corridor",
+    "lift": "Lift and staircase in the hotel hallway",
+    "conference": "Conference room with a long table and a projector screen",
+    "conference2": "Meeting room with leather chairs",
+    "cafe": "Hotel café with tables and a buffet counter",
+    "dining": "Restaurant hall with tables and soft seating",
+    "roomDouble": "Double room with a brown bedspread and soft wall lighting",
+    "roomDouble2": "Double room with a large window and a desk",
+    "roomDouble3": "Double room with a TV and a work desk",
+    "roomDeluxe": "Deluxe room with warm wall lights",
+    "roomDeluxe2": "Deluxe double room with a wall-mounted TV",
+    "roomTwin": "Twin room with two single beds",
+    "roomTwin2": "Twin room with a TV and wardrobe",
+    "roomTriple": "Triple room with a double bed and a single bed",
+    "roomTriple2": "Triple room with a TV and flowers",
+    "bathroom": "Bathroom with a glass shower and washbasin",
+    "bathroom2": "Bathroom with a rain shower",
+    "ferganaPark": "A green park with tall trees",
+    "museum": "Museum interior with exhibits",
+    "margilan": "Colourful silk threads and fabrics",
+    "bazaar": "A busy traditional market",
+    "rishtan": "Hand-painted blue ceramic plates",
+    "kokand": "Historic architecture with decorative tiles",
+    "mountains": "Mountain landscape with a lake"
+  }
+}

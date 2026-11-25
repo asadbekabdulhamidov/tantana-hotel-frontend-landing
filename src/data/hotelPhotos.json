@@ -1,0 +1,29 @@
+{
+  "$comment": "Mehmonxona suratlari: kalit -> src/images ichidagi fayl. 'npm run images' public/images/hotel/ ga AVIF/WebP/JPG versiyalarini yaratadi.",
+  "photos": {
+    "exterior": { "file": "295575618.jpg", "position": "50% 45%" },
+    "exteriorNight": { "file": "295573389.jpg", "position": "50% 50%" },
+    "exteriorWide": { "file": "295572856.jpg", "position": "45% 55%" },
+    "exteriorStreet": { "file": "295572281.jpg", "position": "60% 45%" },
+    "exteriorSunset": { "file": "295601909.jpg" },
+    "lobby": { "file": "287969478.jpg", "position": "40% 50%" },
+    "reception": { "file": "287969561.jpg", "position": "55% 50%" },
+    "corridor": { "file": "287969680.jpg" },
+    "lift": { "file": "287969711.jpg" },
+    "conference": { "file": "287969719.jpg" },
+    "conference2": { "file": "287969753.jpg" },
+    "cafe": { "file": "287969775.jpg" },
+    "dining": { "file": "287969932.jpg" },
+    "roomDouble": { "file": "287968000.jpg", "position": "55% 60%" },
+    "roomDouble2": { "file": "287968292.jpg" },
+    "roomDouble3": { "file": "287968336.jpg" },
+    "roomDeluxe": { "file": "285847839.jpg" },
+    "roomDeluxe2": { "file": "287968124.jpg" },
+    "roomTwin": { "file": "287968940.jpg" },
+    "roomTwin2": { "file": "287968989.jpg" },
+    "roomTriple": { "file": "295573543.jpg" },
+    "roomTriple2": { "file": "295573780.jpg" },
+    "bathroom": { "file": "287968755.jpg" },
+    "bathroom2": { "file": "287969017.jpg" }
+  }
+}
